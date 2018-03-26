@@ -12,7 +12,7 @@ let configs = {
   output: {
     path: path.join(ROOT_PATH, 'dist'),
     publicPath: '/', // output.path的相对路径
-    filename: 'js/[name].js' 
+    filename: 'js/[name].js' // 根据原始名动态命名
   },
   module: {
     loaders: [
